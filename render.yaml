@@ -1,0 +1,6 @@
+services:
+  - name: nodejs
+    buildCommand: npm install && npm run build
+    runCommand: npm start
+
+ 
