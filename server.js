@@ -7,7 +7,7 @@ var mongoose = require('mongoose');
 var imgSchema = require(__dirname + '/public/js/model.js');
 console.log(__dirname)
 const nodemailer = require('nodemailer');
-const puppeteer = require('puppeteer');
+const puppeteer = require('puppeteer-core');
 var axios = require('axios')
 var fs = require('fs');
 var path = require('path');
